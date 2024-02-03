@@ -23,5 +23,5 @@ runs:
         cd ${{ github.action_path }}
         chmod +x goodbye.sh
       shell: bash
-    - run: goodbye.sh
+    - run: ./goodbye.sh
       shell: bash
